@@ -1,0 +1,55 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+  <ul class="nav">
+    <li class="nav-item nav-profile">
+      <a href="/profile" class="nav-link">
+        <div class="profile-image">
+          <img
+            class="img-xs rounded-circle"
+            src="<%= `/img/${authUser.photo}` %>"
+            alt="profile image"
+          />
+          <div class="dot-indicator bg-success"></div>
+        </div>
+        <div class="text-wrapper">
+          <p class="profile-name">Shop owner</p>
+          <p class="designation">admin</p>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item nav-category">Main Menu</li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="/">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Dashboard</span>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="/users">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Users</span>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="/products">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Products</span>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="/suppliers">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Suppliers</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/customers">
+        <i class="menu-icon typcn typcn-shopping-bag"></i>
+        <span class="menu-title">Customers</span>
+      </a>
+    </li>
+  </ul>
+</nav>
